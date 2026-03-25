@@ -2,11 +2,6 @@ import { motion } from 'framer-motion';
 import {
   IconCodeCircle,
   IconBrandReact,
-  IconBrandNextjs,
-  IconBrandVue,
-  IconBrandNuxt,
-  IconBrandSvelte,
-  IconBrandTailwind,
 } from '@tabler/icons-react';
 import { SectionMotion } from '../common/motion/Section';
 import { SectionHeader } from '../components/SectionHeader';
@@ -17,12 +12,20 @@ export const Skills = () => {
   const sectionDescription = 'List of my skills';
   // mockup skills data
   const skills = [
-    { label: 'React Js', icon: <IconBrandReact /> },
-    { label: 'Next Js', icon: <IconBrandNextjs /> },
-    { label: 'Vue Js', icon: <IconBrandVue /> },
-    { label: 'Nuxt Js', icon: <IconBrandNuxt /> },
-    { label: 'Svelte Js', icon: <IconBrandSvelte /> },
-    { label: 'Tailwind CSS', icon: <IconBrandTailwind /> },
+    { label: 'React.js', icon: <IconBrandReact /> },
+    { label: 'JavaScript', icon: <IconCodeCircle /> },
+    { label: 'TypeScript', icon: <IconCodeCircle /> },
+    { label: 'Redux Toolkit', icon: <IconCodeCircle /> },
+    { label: 'GraphQL', icon: <IconCodeCircle /> },
+    { label: 'REST APIs', icon: <IconCodeCircle /> },
+    { label: 'OKTA', icon: <IconCodeCircle /> },
+    { label: 'Microservices', icon: <IconCodeCircle /> },
+    { label: 'Module Federation', icon: <IconCodeCircle /> },
+    { label: 'Vite', icon: <IconCodeCircle /> },
+    { label: 'Firebase', icon: <IconCodeCircle /> },
+    { label: 'Git', icon: <IconCodeCircle /> },
+    { label: 'Jira', icon: <IconCodeCircle /> },
+    { label: 'Jenkins', icon: <IconCodeCircle /> },
   ];
   return (
     <motion.section

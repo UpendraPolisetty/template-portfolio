@@ -18,17 +18,18 @@ export const Home = () => {
           <div className="ml-1 animate-waving-hand">👋</div>
         </div>
         <h1 className="text-white font-extrabold text-4xl md:text-6xl">
-          Bayu Setiawan
+          Upendra Polisetty
         </h1>
         <h2 className="text-teal-500 font-bold text-xl md:text-3xl">
           Software Engineer
         </h2>
         <p className="text-center md:text-start text-xs md:text-base">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam,
-          neque illo. Vel repudiandae culpa dolorum, accusantium odit rerum
-          commodi totam?
+          Software Engineer with 4 years of experience building frontend
+          applications using React.js, TypeScript, GraphQL and REST APIs. I
+          focus on creating maintainable, scalable code and delivering great
+          user experiences.
         </p>
-        <Link to="./Bayu-Setiawan-Frontend-Developer-CV.pdf" target="_blank">
+        <Link to="./Upendra-Polisetty-CV.pdf" target="_blank">
           <motion.div
             initial={resume.initial}
             animate={resume.animated}
@@ -51,8 +52,8 @@ export const Home = () => {
           transition={image.transition}
           src="/bayu-no-bg.webp"
           alt="profile"
-          width="100%"
-          height="100%"
+          width="50%"
+          height="50%"
         />
       </motion.div>
 

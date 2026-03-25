@@ -12,12 +12,12 @@ export const Education = () => {
     {
       id: 1,
       image: '/vite.svg',
-      name: 'IPB University',
-      position: 'Bachelor Engineering',
-      startDate: 'Jan 2017',
-      endDate: 'Jan 2021',
+      name: 'Siddharth Institute of Engineering & Technology, Puttur',
+      position: 'Bachelor of Technology - BTech, Mechanical Engineering',
+      startDate: 'Jul 2016',
+      endDate: 'Sep 2020',
       duration: '4 years',
-      location: 'Bogor',
+      location: 'Puttur',
     },
   ];
   return (

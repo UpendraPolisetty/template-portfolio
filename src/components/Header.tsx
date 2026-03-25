@@ -12,7 +12,6 @@ export const Header = () => {
     { name: 'Skills', path: '/skills' },
     { name: 'Experience', path: '/experience' },
     { name: 'Education', path: '/education' },
-    { name: 'Portfolio', path: '/portfolio' },
     { name: 'Contact', path: '/contact' },
   ];
   function toggleDrawer() {
@@ -21,14 +20,14 @@ export const Header = () => {
   return (
     <motion.header className="w-full sticky md:px-20 top-0 bg-gray-950 z-20 mb-4 flex text-white items-center justify-between p-4">
       <Link to="/">
-        <motion.div
+          <motion.div
           initial={{ y: -100 }}
           animate={{ y: 0 }}
           transition={{ delay: 0.1 }}
           className="flex items-center space-x-2 font-bold text-md md:text-3xl text-teal-400"
         >
           <IconRobot width={35} height={35} />
-          <span>Bayu Setiawan</span>
+          <span>Upendra Polisetty</span>
         </motion.div>
       </Link>
       <motion.nav

@@ -26,12 +26,12 @@ export const CommonCard = (props: CommonCardProps) => {
       transition={{
         duration: 0.2,
       }}
-      className="flex items-center space-x-10 w-full md:w-max py-4 px-8 rounded-xl bg-gray-900"
+      className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-10 w-full py-4 px-8 rounded-xl bg-gray-900"
     >
       <div className="w-20 h-20">
         <img src={image} alt={name} width="100%" height="100%" />
       </div>
-      <div className="flex flex-col text-gray-400 text-sm">
+      <div className="flex flex-col text-gray-400 text-sm break-words">
         <h2 className="text-lg font-bold text-white">{position}</h2>
         <span>
           {name} • {location}

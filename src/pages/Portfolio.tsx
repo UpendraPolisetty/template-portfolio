@@ -8,36 +8,11 @@ export const Portfolio = () => {
   const { section } = SectionMotion;
   const sectionDescription = 'List of my portfolio projects';
   const portfolios = [
-    {
-      id: 1,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 2,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 12,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 13,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
-    {
-      id: 15,
-      name: 'Portfolio Project',
-      image: '/portfolio.webp',
-      link: 'https://codebayu.com',
-    },
+    { id: 1, name: 'Project 1', image: '/portfolio.webp', link: '#' },
+    { id: 2, name: 'Project 2', image: '/portfolio.webp', link: '#' },
+    { id: 3, name: 'Project 3', image: '/portfolio.webp', link: '#' },
+    { id: 4, name: 'Project 4', image: '/portfolio.webp', link: '#' },
+    { id: 5, name: 'Project 5', image: '/portfolio.webp', link: '#' },
   ];
   return (
     <motion.section

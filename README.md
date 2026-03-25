@@ -4,11 +4,11 @@ Welcome to the Template Portfolio project! This repository serves as a starting 
 
 ## Preview
 
-<img width="300" alt="home" src="https://github.com/Bayusetiawan45/template-portfolio/assets/99315255/21b762f8-67ba-4c21-b126-4a094e873779">
+<img width="300" alt="home" src="https://github.com/UpendraPolisetty/template-portfolio/assets/99315255/21b762f8-67ba-4c21-b126-4a094e873779">
 
-<img width="300" alt="experience" src="https://github.com/Bayusetiawan45/template-portfolio/assets/99315255/c27282c9-568f-4b26-a057-85b7186526d0">
+<img width="300" alt="experience" src="https://github.com/UpendraPolisetty/template-portfolio/assets/99315255/c27282c9-568f-4b26-a057-85b7186526d0">
 
-<img width="300" alt="skills" src="https://github.com/Bayusetiawan45/template-portfolio/assets/99315255/050336ee-bb3b-430d-a99d-68763eadc8e3">
+<img width="300" alt="skills" src="https://github.com/UpendraPolisetty/template-portfolio/assets/99315255/050336ee-bb3b-430d-a99d-68763eadc8e3">
 
 
 ## Prerequisites
@@ -25,7 +25,7 @@ Before you begin, make sure you have the following tools installed on your machi
 To get started, clone this repository to your local machine using `git`:
 
 ```bash
-git clone https://github.com/Bayusetiawan45/template-portfolio.git
+git clone https://github.com/UpendraPolisetty/template-portfolio.git
 cd template-portfolio
 ```
 
